@@ -190,7 +190,7 @@
          "name":"furniture",
          "opacity":1,
          "type":"group",
-         "visible":false,
+         "visible":true,
          "x":0,
          "y":0
         }, 
@@ -327,6 +327,38 @@
                  "width":29.6150049358341,
                  "x":884.219433084191,
                  "y":365.251727541955
+                }, 
+                {
+                 "height":18.84375,
+                 "id":13,
+                 "name":"",
+                 "rotation":0,
+                 "text":
+                    {
+                     "text":"Classroom",
+                     "wrap":true
+                    },
+                 "type":"",
+                 "visible":true,
+                 "width":80.234375,
+                 "x":500.144086394752,
+                 "y":312.373091418186
+                }, 
+                {
+                 "height":18.84375,
+                 "id":14,
+                 "name":"",
+                 "rotation":0,
+                 "text":
+                    {
+                     "text":"Game room",
+                     "wrap":true
+                    },
+                 "type":"",
+                 "visible":true,
+                 "width":86.1388697966639,
+                 "x":766.584414094214,
+                 "y":310.89696771902
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -335,7 +367,7 @@
          "y":0
         }],
  "nextlayerid":13,
- "nextobjectid":13,
+ "nextobjectid":16,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.10.2",

@@ -22,7 +22,7 @@
          "name":"start",
          "opacity":1,
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":20,
          "x":0,
          "y":0
@@ -75,7 +75,7 @@
                  "name":"floor1",
                  "opacity":1,
                  "type":"tilelayer",
-                 "visible":true,
+                 "visible":false,
                  "width":20,
                  "x":0,
                  "y":0
@@ -84,11 +84,11 @@
                  "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
                     0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
                     0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-                    0, 2890, 2894, 2894, 2891, 2724, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+                    0, 2890, 2894, 2894, 2891, 2724, 0, 0, 0, 0, 0, 0, 2724, 0, 0, 0, 0, 0, 0, 0,
                     0, 2147486545, 0, 0, 2897, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
                     0, 2147486545, 0, 0, 2897, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
                     0, 2147486545, 0, 0, 2897, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-                    0, 2893, 1073744718, 1073744718, 2892, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+                    0, 2893, 1073744718, 1073744718, 2892, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2724, 0, 0, 0, 0, 0,
                     0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
                     0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
                     0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
@@ -100,7 +100,7 @@
                  "name":"floor2",
                  "opacity":1,
                  "type":"tilelayer",
-                 "visible":true,
+                 "visible":false,
                  "width":20,
                  "x":0,
                  "y":0
@@ -108,7 +108,7 @@
          "name":"floor",
          "opacity":1,
          "type":"group",
-         "visible":true,
+         "visible":false,
          "x":0,
          "y":0
         }, 
@@ -135,7 +135,7 @@
                  "name":"wall1",
                  "opacity":1,
                  "type":"tilelayer",
-                 "visible":true,
+                 "visible":false,
                  "width":20,
                  "x":0,
                  "y":0
@@ -260,6 +260,50 @@
                  "y":95.8501252586864
                 }, 
                 {
+                 "height":157.934865483063,
+                 "id":6,
+                 "name":"game-area-2",
+                 "properties":[
+                        {
+                         "name":"openWebsite",
+                         "type":"string",
+                         "value":"https:\/\/richardyak.com\/game\/snake"
+                        }, 
+                        {
+                         "name":"openWebsitePolicy",
+                         "type":"string",
+                         "value":"fullscreen"
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":125.258686417602,
+                 "x":255.963402679447,
+                 "y":95.8501252586864
+                }, 
+                {
+                 "height":157.934865483063,
+                 "id":7,
+                 "name":"game-area-3",
+                 "properties":[
+                        {
+                         "name":"openWebsite",
+                         "type":"string",
+                         "value":"https:\/\/richardyak.com\/game\/2048"
+                        }, 
+                        {
+                         "name":"openWebsitePolicy",
+                         "type":"string",
+                         "value":"fullscreen"
+                        }],
+                 "rotation":0,
+                 "type":"area",
+                 "visible":true,
+                 "width":125.258686417602,
+                 "x":481.429038231129,
+                 "y":94.7609192898377
+                }, 
+                {
                  "height":31.5869730966126,
                  "id":3,
                  "name":"to-second-floor",
@@ -300,7 +344,7 @@
          "y":0
         }],
  "nextlayerid":13,
- "nextobjectid":6,
+ "nextobjectid":8,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.10.2",
