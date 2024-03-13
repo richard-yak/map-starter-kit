@@ -318,11 +318,6 @@
                          "value":true
                         }, 
                         {
-                         "name":"jitsiConfig",
-                         "type":"string",
-                         "value":"{ \"startWithAudioMuted\": true}"
-                        }, 
-                        {
                          "name":"jitsiRoom",
                          "type":"string",
                          "value":"discussion-area-1"
@@ -348,11 +343,6 @@
                          "name":"focusable",
                          "type":"bool",
                          "value":true
-                        }, 
-                        {
-                         "name":"jitsiConfig",
-                         "type":"string",
-                         "value":"{ \"startWithAudioMuted\": true}"
                         }, 
                         {
                          "name":"jitsiRoom",
@@ -382,11 +372,6 @@
                          "value":true
                         }, 
                         {
-                         "name":"jitsiConfig",
-                         "type":"string",
-                         "value":"{ \"startWithAudioMuted\": true}"
-                        }, 
-                        {
                          "name":"jitsiRoom",
                          "type":"string",
                          "value":"discussion-area-3"
@@ -412,11 +397,6 @@
                          "name":"focusable",
                          "type":"bool",
                          "value":true
-                        }, 
-                        {
-                         "name":"jitsiConfig",
-                         "type":"string",
-                         "value":"{ \"startWithAudioMuted\": true}"
                         }, 
                         {
                          "name":"jitsiRoom",
