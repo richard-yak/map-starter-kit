@@ -636,6 +636,11 @@
                          "value":true
                         }, 
                         {
+                         "name":"jitsiConfig",
+                         "type":"string",
+                         "value":"{\"startWithAudioMuted\": false}"
+                        }, 
+                        {
                          "name":"jitsiRoom",
                          "type":"string",
                          "value":"gathering-area"
