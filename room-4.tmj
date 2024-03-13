@@ -2734,11 +2734,6 @@
               "value": true
             },
             {
-              "name": "jitsiConfig",
-              "type": "string",
-              "value": "{ \"startWithAudioMuted\": true}"
-            },
-            {
               "name": "jitsiRoom",
               "type": "string",
               "value": "discussion-area-1"
@@ -2765,11 +2760,6 @@
               "name": "focusable",
               "type": "bool",
               "value": true
-            },
-            {
-              "name": "jitsiConfig",
-              "type": "string",
-              "value": "{ \"startWithAudioMuted\": true}"
             },
             {
               "name": "jitsiRoom",
@@ -2800,11 +2790,6 @@
               "value": true
             },
             {
-              "name": "jitsiConfig",
-              "type": "string",
-              "value": "{ \"startWithAudioMuted\": true}"
-            },
-            {
               "name": "jitsiRoom",
               "type": "string",
               "value": "discussion-area-3"
@@ -2831,11 +2816,6 @@
               "name": "focusable",
               "type": "bool",
               "value": true
-            },
-            {
-              "name": "jitsiConfig",
-              "type": "string",
-              "value": "{ \"startWithAudioMuted\": true}"
             },
             {
               "name": "jitsiRoom",
@@ -2959,7 +2939,7 @@
     {
       "columns": 7,
       "firstgid": 1,
-      "image": "room-4-chunk-1-ed4469cc.png",
+      "image": "room-4-chunk-1-18726520.png",
       "imageheight": 224,
       "imagewidth": 224,
       "margin": 0,
